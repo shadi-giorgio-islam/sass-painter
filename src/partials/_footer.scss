@@ -1,0 +1,31 @@
+footer{
+  margin-top: 450px;
+  background-color: $lightgrey;
+  .container{
+    @include container;
+    .top{
+      @include flex(row, space-between, flex-start);
+      padding: 20px 0;
+      .column{
+        @include flex(column, space-between, flex-start);
+
+        h3{
+          font-size: 16px;
+          padding: 20px 0;
+          color: $black;
+        }
+        a{
+          font-size: 14px;
+          padding: 10px 0;
+          color: $black;
+          &:hover{
+            text-decoration: underline;
+          }
+          i{
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

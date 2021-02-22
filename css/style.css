@@ -134,6 +134,7 @@ header .container .bottom nav ul li:hover .dropbox {
   display: block;
 }
 header .jumbotron {
+  height: 450px;
   padding: 80px 0;
   background-image: url("https://www.artmarket.co.uk/stdimagewide/stephen-hanson-ball-pool-sthx0010-R.jpg");
   background-repeat: no-repeat;
@@ -167,4 +168,44 @@ header .jumbotron .container .content .btns {
 }
 header .jumbotron .container .content .btns a {
   margin-right: 20px;
+}
+
+footer {
+  margin-top: 450px;
+  background-color: lightgrey;
+}
+footer .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .container .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+}
+footer .container .top .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+footer .container .top .column h3 {
+  font-size: 16px;
+  padding: 20px 0;
+  color: #101010;
+}
+footer .container .top .column a {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #101010;
+}
+footer .container .top .column a:hover {
+  text-decoration: underline;
+}
+footer .container .top .column a i {
+  margin-right: 10px;
 }
