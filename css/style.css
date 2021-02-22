@@ -209,3 +209,31 @@ footer .container .top .column a:hover {
 footer .container .top .column a i {
   margin-right: 10px;
 }
+footer .bottom {
+  height: 80px;
+  background-color: #1E1E1E;
+}
+footer .bottom .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+}
+footer .bottom .container .left img {
+  height: 40px;
+  margin-right: 20px;
+}
+footer .bottom .container .right a {
+  color: grey;
+  margin-right: 20px;
+}
+footer .bottom .container .right a:hover {
+  color: white;
+  text-decoration: underline;
+}
+footer .bottom .container .right p {
+  color: white;
+  display: inline-block;
+}

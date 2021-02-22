@@ -28,4 +28,33 @@ footer{
       }
     }
   }
+  .bottom{
+    height: 80px;
+    background-color: $lightBlack;
+    .container{
+      @include flex(row, space-between, center);
+      padding: 20px 0;
+      .left{
+
+        img{
+          height: 40px;
+          margin-right: 20px;
+        }
+      }
+      .right{
+        a{
+          color: grey;
+          margin-right: 20px;
+          &:hover{
+            color: white;
+            text-decoration: underline;
+          }
+        }
+        p{
+          color: white;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
