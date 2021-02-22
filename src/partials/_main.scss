@@ -1,0 +1,40 @@
+main{
+  padding: 40px 0;
+  margin-top: 450px;
+  .container{
+    @include container;
+    h2{
+      font-size: 35px;
+      color: $black;
+      text-align: center;
+      padding: 20px;
+    }
+    .row{
+      @include flex(row, space-between);
+      .box{
+        height: 350px;
+        width: 350px;
+        text-align: left;
+        background-color: white;
+        img{
+          height: 200px;
+          width: 350px;
+        }
+        h3{
+          padding: 20px 0 20px 10px;
+          font-size: 18px;
+          color: $black;
+        }
+        p{
+          padding-left: 10px;
+          font-size: 14px;
+          color: $black;
+        }
+        a{
+          color: $lightblue;
+          margin: 20px 0 20px 10px;
+        }
+      }
+    }
+  }
+}
