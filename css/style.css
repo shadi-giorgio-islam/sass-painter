@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #101010;
+}
+header .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .container .top {
+  height: 45px;
+}
+header .container .top nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header .container .top nav ul li {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+header .container .top nav ul li a {
+  color: lightgrey;
+  text-decoration: none;
+  font-size: 14px;
+}
+header .container .top nav ul li a i {
+  color: #009CFF;
+  padding-right: 10px;
+}
+header .container .top nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+header .container .bottom {
+  height: 55px;
+}
+header .container .bottom nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header .container .bottom nav ul li {
+  height: 55px;
+  padding: 20px;
+  position: relative;
+}
+header .container .bottom nav ul li img {
+  height: 30px;
+  padding: 0;
+}
+header .container .bottom nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+header .container .bottom nav ul li a i {
+  color: lightgrey;
+  padding-left: 10px;
+}
+header .container .bottom nav ul li .dropbox {
+  display: none;
+  width: 200px;
+  background-color: lightgrey;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+header .container .bottom nav ul li .dropbox ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header .container .bottom nav ul li .dropbox ul li {
+  padding: 20px 0;
+  color: #101010;
+}
+header .container .bottom nav ul li:hover {
+  background-color: lightgrey;
+}
+header .container .bottom nav ul li:hover a {
+  color: #101010;
+}
+header .container .bottom nav ul li:hover a i {
+  color: #101010;
+}
+header .container .bottom nav ul li:first-child {
+  padding: 0;
+  padding-top: 10px;
+}
+header .container .bottom nav ul li:hover .dropbox {
+  display: block;
+}
