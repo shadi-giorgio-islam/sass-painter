@@ -6,3 +6,22 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.btn{
+  padding: 10px 25px;
+  color: $black;
+  border: 2px solid $black;
+}
+.btn.black{
+  color: $white;
+  background-color: $black;
+  border: none;
+}
+.btn.white{
+  color: $black;
+  background-color: $white;
+  border: none;
+}

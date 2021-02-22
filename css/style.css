@@ -8,6 +8,29 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  padding: 10px 25px;
+  color: #101010;
+  border: 2px solid #101010;
+}
+
+.btn.black {
+  color: white;
+  background-color: #101010;
+  border: none;
+}
+
+.btn.white {
+  color: #101010;
+  background-color: white;
+  border: none;
+}
+
 header {
   height: 100px;
   width: 100%;
@@ -109,4 +132,39 @@ header .container .bottom nav ul li:first-child {
 }
 header .container .bottom nav ul li:hover .dropbox {
   display: block;
+}
+header .jumbotron {
+  padding: 80px 0;
+  background-image: url("https://www.artmarket.co.uk/stdimagewide/stephen-hanson-ball-pool-sthx0010-R.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+header .jumbotron .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .jumbotron .container .content {
+  width: 50%;
+}
+header .jumbotron .container .content img {
+  height: 40px;
+  margin: 20px 0;
+}
+header .jumbotron .container .content h2 {
+  color: white;
+  font-size: 25px;
+}
+header .jumbotron .container .content h3 {
+  color: #D35CAD;
+  padding: 20px 0;
+}
+header .jumbotron .container .content h3 span {
+  font-weight: 700;
+}
+header .jumbotron .container .content .btns {
+  padding: 20px;
+}
+header .jumbotron .container .content .btns a {
+  margin-right: 20px;
 }
