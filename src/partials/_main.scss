@@ -3,36 +3,86 @@ main{
   margin-top: 450px;
   .container{
     @include container;
-    h2{
-      font-size: 35px;
-      color: $black;
-      text-align: center;
-      padding: 20px;
-    }
-    .row{
-      @include flex(row, space-between);
-      .box{
-        height: 350px;
-        width: 350px;
-        text-align: left;
-        background-color: white;
-        img{
-          height: 200px;
+    #possibilities{
+      h2{
+        font-size: 35px;
+        color: $black;
+        text-align: center;
+        padding: 20px;
+      }
+      .row{
+        @include flex(row, space-between);
+        .box{
+          height: 350px;
           width: 350px;
+          text-align: left;
+          background-color: white;
+          img{
+            height: 200px;
+            width: 350px;
+          }
+          h3{
+            padding: 20px 0 20px 10px;
+            font-size: 18px;
+            color: $black;
+          }
+          p{
+            padding-left: 10px;
+            font-size: 14px;
+            color: $black;
+          }
+          a{
+            color: $lightblue;
+            margin: 20px 0 20px 10px;
+          }
         }
-        h3{
-          padding: 20px 0 20px 10px;
-          font-size: 18px;
-          color: $black;
+      }
+    }
+    #table{
+      margin: 40px 0;
+      .row{
+        @include flex(row, space-between);
+        &:first-child{
+          background-color: $purple;
+          a{
+            color: $purple;
+          }
         }
-        p{
-          padding-left: 10px;
-          font-size: 14px;
-          color: $black;
+        &:nth-child(2){
+          background-color: $grey;
+          a{
+            color: $grey;
+          }
         }
-        a{
-          color: $lightblue;
-          margin: 20px 0 20px 10px;
+        &:last-child{
+          background-color: $lightblue;
+          a{
+            color: $lightblue;
+          }
+        }
+
+        .inner-row{
+          height: 350px;
+          width: 50%;
+          color: $white;
+          text-align: left;
+          h2{
+            font-size: 28px;
+            margin-top: 40px;
+            padding: $pbox;
+          }
+          p{
+            font-size: 20px;
+            padding: $pbox;
+          }
+          a{
+            font-size: 16px;
+            margin: 40px;
+          }
+          img{
+            height: 350px;
+            width: 100%;
+          }
         }
       }
     }

@@ -179,42 +179,93 @@ main .container {
   width: 1200px;
   margin: 0 auto;
 }
-main .container h2 {
+main .container #possibilities h2 {
   font-size: 35px;
   color: #101010;
   text-align: center;
   padding: 20px;
 }
-main .container .row {
+main .container #possibilities .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
 }
-main .container .row .box {
+main .container #possibilities .row .box {
   height: 350px;
   width: 350px;
   text-align: left;
   background-color: white;
 }
-main .container .row .box img {
+main .container #possibilities .row .box img {
   height: 200px;
   width: 350px;
 }
-main .container .row .box h3 {
+main .container #possibilities .row .box h3 {
   padding: 20px 0 20px 10px;
   font-size: 18px;
   color: #101010;
 }
-main .container .row .box p {
+main .container #possibilities .row .box p {
   padding-left: 10px;
   font-size: 14px;
   color: #101010;
 }
-main .container .row .box a {
+main .container #possibilities .row .box a {
   color: #009CFF;
   margin: 20px 0 20px 10px;
+}
+main .container #table {
+  margin: 40px 0;
+}
+main .container #table .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+main .container #table .row:first-child {
+  background-color: #3C1567;
+}
+main .container #table .row:first-child a {
+  color: #3C1567;
+}
+main .container #table .row:nth-child(2) {
+  background-color: #3C3C3C;
+}
+main .container #table .row:nth-child(2) a {
+  color: #3C3C3C;
+}
+main .container #table .row:last-child {
+  background-color: #009CFF;
+}
+main .container #table .row:last-child a {
+  color: #009CFF;
+}
+main .container #table .row .inner-row {
+  height: 350px;
+  width: 50%;
+  color: white;
+  text-align: left;
+}
+main .container #table .row .inner-row h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  padding: 20px 40px;
+}
+main .container #table .row .inner-row p {
+  font-size: 20px;
+  padding: 20px 40px;
+}
+main .container #table .row .inner-row a {
+  font-size: 16px;
+  margin: 40px;
+}
+main .container #table .row .inner-row img {
+  height: 350px;
+  width: 100%;
 }
 
 footer {
